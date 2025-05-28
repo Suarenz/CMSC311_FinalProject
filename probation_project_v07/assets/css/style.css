@@ -1,0 +1,280 @@
+:root {
+  --primary-color: #C5C1A7;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+/* header styles */
+header {
+  background-color: var(--primary-color);
+  border-bottom: 1px solid #757575;
+  /* border-radius: 10px; */
+}
+
+/* footer styles */
+footer {
+  background-color: var(--primary-color);
+  text-align: center;
+  border-top: 5px solid #757575;
+  border-radius: 10px;
+  /* position: fixed;
+  bottom: 0;
+  width: 100%; */
+}
+
+
+/* Navigation Styles 1*/
+/* bootstrap nav */
+a:link {
+  text-decoration: none;
+}
+
+/* styles 2 */
+
+
+.navbar {
+  background-color: var(--primary-color);
+  padding: 10px 0;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom: 5px solid #757575;
+}
+
+.navbar-toggler-icon {
+  background-color: #fff;
+}
+
+.navbar-toggler {
+  color: #fff;
+  border: none;
+}
+
+.navbar-nav .nav-link {
+  color: #fff;
+  font-size: 18px;
+  margin: 0 15px;
+  transition: all 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ddd;
+}
+
+.dropdown-menu {
+  background-color: var(--primary-color);
+  border: none;
+  border-radius: 0;
+}
+
+.dropdown-menu a {
+  color: #fff;
+}
+
+.dropdown-menu a:hover {
+  background-color: #ddd;
+  color: #000;
+}
+
+.navbar-nav .active > .nav-link {
+  color: #ddd;
+  font-weight: bold;
+}
+
+/* nav .login-nav {
+  float: right;
+  text-align: center;
+} */
+
+nav ul {
+  display: table;
+  margin: auto;
+}
+
+
+
+h2,
+h3,
+h4 {
+  padding: 5px;
+  font-weight: 400;
+}
+
+h3 {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+h5 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+
+/* Form */
+
+.container {
+  margin-top: 50px;
+}
+
+.card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+  background-color: #7f7e9d;
+  /* background-color: #617073; */
+  /* background-color:  #9d9485 ; */
+  /* background-color:  #595669 ; */
+  /* background-color: #b09a7b; */
+  color: #ffffff;
+  text-align: center;
+  padding: 15px;
+}
+
+.card-body {
+  padding: 30px;
+}
+
+.form-label {
+  font-weight: bold;
+}
+
+.form-control {
+  margin-bottom: 20px;
+}
+
+.btn-primary {
+  background-color: #7f7e9d;
+  border: none;
+  color: #FFFFFF;
+}
+
+.btn-primary:hover {
+  background-color: #4f4d7c;
+}
+
+.error {
+  color: #dc3545;
+  font-size: 0.80rem;
+  /* font-size: 1rem; */
+  margin-top: 5px;
+  /* font-weight: bold; */
+
+}
+.text-center {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.form-control {
+  border-color: #7f7e9d;
+}
+
+.form-control:focus {
+  border-color: #7f7e9d;
+}
+
+
+/* Sidebar Styles */
+.sidebar-wrapper {
+  background-color: var(--primary-color);
+  color: #fff;
+  /* padding-top: 1rem; */
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  height: calc(100vh - 2rem); /* Adjust the height as needed */
+}
+
+.sidebar-wrapper h4 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.sidebar-wrapper ul.nav.flex-column {
+  padding-left: 0; /* Remove default padding */
+  list-style: none; /* Remove list styles */
+}
+
+.sidebar-wrapper .nav-link {
+  color: #fff;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  text-decoration: none; /* Remove underline */
+  display: flex;
+  align-items: center; /* Center the content vertically */
+}
+
+.sidebar-wrapper .nav-link i {
+  margin-right: 0.5rem;
+}
+
+.sidebar-wrapper .nav-link:hover {
+  color: #ddd;
+}
+
+/* Active Link Styles */
+.sidebar-wrapper .nav-link.active {
+  font-weight: bold;
+  background-color: #9d9485; /* Active link background color */
+}
+
+
+
+
+/* Optional: Collapse Sidebar on Smaller Screens */
+@media (max-width: 768px) {
+  .sidebar-wrapper {
+      display: none;
+  }
+}
+
+/* Optional: Add media queries for responsiveness */
+
+@media (max-width: 768px) {
+  .card {
+      margin: 0;
+      box-shadow: none;
+  }
+
+  .card-body {
+      padding: 15px;
+  }
+
+  .form-control {
+      margin-bottom: 15px;
+  }
+
+  .navbar-nav {
+    flex-direction: column;
+  }
+
+  .navbar-nav .nav-link {
+    margin: 10px 0;
+  }
+
+  .sidebar {
+    display: none;
+}
+
+}
+
+.input-group .form-control {
+  border-right: 0;
+}
+
+.input-group .btn {
+  border-left: 0;
+}
+
+.input-group .btn:focus {
+  box-shadow: none;
+}
+
