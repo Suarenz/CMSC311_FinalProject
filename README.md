@@ -61,6 +61,36 @@ The purpose is to improved their daily operations through organized scheduling a
 **DEMO VIDEO LINK:**
 https://drive.google.com/drive/folders/1ZF2q3G9hsdP7l0T1NGMyMvHaljcgVrmL?usp=drive_link
 --------------------------
+**FOLDER STRUCTURE DESCRIPTION**
+
+📁 assets/
+* Contains static content and user-uploaded files.
+
+
+📁 inc/
+*  Includes partial PHP files used across pages.
+
+
+📁 includes/
+*  An older or alternate set of include files.
+
+
+📁 js/
+* Holds JavaScript files for interactivity and functionality.
+
+
+📁 phpmailer\_src/
+*  Contains PHPMailer library files used to send emails.
+
+📁 template/
+*  Contains design templates or reusable layout files.
+
+📁 vendor/
+*  Stores dependencies like PHPMailer.
+
+📁 z_pages/
+*   A custom folder for the main website.
+--------------------------
 **CONTRIBUTORS**
  
 * Badillo, Jerahmeel
