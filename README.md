@@ -1,99 +1,102 @@
-# CMSC311-Final-Project
-**PROJECT TITLE:** 
-Client Appointment and Monitoring Management System for Laguna Parole
-and Probation Office with SMS Notification
+<!-- Add a banner or aesthetic GIF here -->
+<p align="center">
+  <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExcTRpdDV6cnk2ZzZ1azdmOHhlaGpoMjBkODRsd3B0NWRheDg0bDZqcCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qgQUggAC3Pfv687qPC/giphy.gif" width="60%" alt="banner">
+</p>
 
+<h1 align="center"> CMSC-311 Final Project</h1>
 
-This study developed a web-based system for the Laguna Parole and Probation Office to manage client schedules, monitor probationers, and provide SMS reminders. 
-The purpose is to improved their daily operations through organized scheduling and faster transactions. People who tested the system gave it excellent marks, proving it is both effective and easy to use.
---------------------------
-**FEATURES ADDED / ENHANCED:**
-* Show Password Function
-* Chatbot Feature
-* Archive Feature for Clients List
-* Real-time Search Functionality
---------------------------
-**INSTALLATIONS INSTRUCTIONS**
-1. Download and Extract the System Files
-   * Locate the .zip file of the system.
-   * Extract the contents inside the htdocs folder of your XAMPP installation directory (usually found at C:\xampp\htdocs).
-     
-2. Import the Database
-   * Open your browser and go to: http://localhost/phpmyadmin
-   * Click on "Import".
-   * Choose the .sql file provided in the project folder.
-   * Click "Go" to import the database successfully.
-     
-3. Start XAMPP Services
-  * Launch the XAMPP Control Panel.
-  * Start both Apache and MySQL services.
+## 📝 PROJECT TITLE
+**Client Appointment and Monitoring Management System for Laguna Parole and Probation Office with SMS Notification**
 
-4. Access the System
-  * Open your browser and type:
-    http://localhost/[your_system_folder_name]
-  * Replace [your_system_folder_name] with the actual name of the extracted folder.
---------------------------
-**HOW TO USE THE SYSTEM**
-1. Login / Register
-   * Enter your username and password in the login page.
-   * Click Login.
-  
-2. Dashboard Access
-   * View and set client appointments.
-   * Monitor probationer reports.
-   * Send SMS notifications to clients
-   * Track attendance and compliance.
+> This study developed a web-based system for the Laguna Parole and Probation Office to manage client schedules, monitor probationers, and provide SMS reminders.  The purpose is to improve their daily operations through organized scheduling and faster transactions.People who tested the system gave it excellent marks, proving it is both effective and easy to use.
 
-3. Schedule Appointment
-   * Fill in:
-       * Title
-       * Case Number
-       * Description
-    * Click Save
+---
 
-4. Monitoring Probationers
-   * Go to Account Management section.
-   * Select a probationer’s name.
-   * View details and compliance updates.
+##  FEATURES ADDED / ENHANCED:
+- 🔐 Show Password Function  
+- 🤖 Chatbot Feature  
+- 🗂️ Archive Feature for Clients List  
+- 🔎 Real-time Search Functionality  
 
-5. Logout
---------------------------
-**DEMO VIDEO LINK:**
-https://drive.google.com/drive/folders/1ZF2q3G9hsdP7l0T1NGMyMvHaljcgVrmL?usp=drive_link
---------------------------
-**FOLDER STRUCTURE DESCRIPTION**
+---
 
-📁 assets/
-* Contains static content and user-uploaded files.
+##  INSTALLATION INSTRUCTIONS
 
+1. **Download and Extract the System Files**
+   - 📁 Locate the `.zip` file of the system  
+   - 📂 Extract it inside the `htdocs` folder of your XAMPP installation directory  
+     _(usually found at `C:\xampp\htdocs`)_
 
-📁 inc/
-*  Includes partial PHP files used across pages.
+2. **Import the Database**
+   - Open your browser and go to: [phpMyAdmin](http://localhost/phpmyadmin)  
+   - Click on ➕ **Import**  
+   - Choose the `.sql` file  
+   - Click **Go**
 
+3. **Start XAMPP Services**
+   - Launch the **XAMPP Control Panel**  
+   - Start both **Apache** and **MySQL**
 
-📁 includes/
-*  An older or alternate set of include files.
+4. **Access the System**
+   - Type this in your browser:  
+     `http://localhost/[your_system_folder_name]`  
+   - Replace `[your_system_folder_name]` with the actual folder name
 
+---
 
-📁 js/
-* Holds JavaScript files for interactivity and functionality.
+##  HOW TO USE THE SYSTEM
 
+1. **Login / Register**
+   - Enter your username and password  
+   - Click **Login**
 
-📁 phpmailer\_src/
-*  Contains PHPMailer library files used to send emails.
+2. **Dashboard Access**
+   - 📅 View/set client appointments  
+   - 🧾 Monitor probationer reports  
+   - 📲 Send SMS notifications  
+   - 📊 Track attendance and compliance
 
-📁 template/
-*  Contains design templates or reusable layout files.
+3. **Schedule Appointment**
+   - Fill in:
+     - 📝 Title
+     - 🔢 Case Number
+     - 📃 Description  
+   - Click **Save**
 
-📁 vendor/
-*  Stores dependencies like PHPMailer.
+4. **Monitoring Probationers**
+   - Go to **Account Management**  
+   - Select a name  
+   - View their compliance details
 
-📁 z_pages/
-*   A custom folder for the main website.
---------------------------
-**CONTRIBUTORS**
- 
-* Badillo, Jerahmeel
-* Calapao, Jan Reinnen
-* Rebong, Dexter
-* Sofer, Jencel
+5. **Logout**
+
+---
+
+##  DEMO VIDEO
+📹 [Google Drive Link](https://drive.google.com/drive/folders/1ZF2q3G9hsdP7l0T1NGMyMvHaljcgVrmL?usp=drive_link)
+
+---
+
+##  FOLDER STRUCTURE
+
+```plaintext
+📁 assets/          → Static files & uploads
+📁 inc/             → Shared PHP partials
+📁 includes/        → Legacy/alternate includes
+📁 js/              → JavaScript files
+📁 phpmailer_src/   → PHPMailer library
+📁 template/        → Reusable layouts
+📁 vendor/          → Dependencies like PHPMailer
+📁 z_pages/         → Main website pages
+```
+<p align="center">
+👥 CONTRIBUTORS 👥
+<p align="center">
+ Badillo, Jerahmeel
+<p align="center">
+ Calapao, Jan Reinnen
+<p align="center">
+ Rebong, Dexter
+<p align="center">
+ Sofer, Jencel
+</p>
