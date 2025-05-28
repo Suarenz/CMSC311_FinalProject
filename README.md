@@ -89,14 +89,43 @@
 📁 vendor/          → Dependencies like PHPMailer
 📁 z_pages/         → Main website pages
 ```
-<p align="center">
-👥 CONTRIBUTORS 👥
-<p align="center">
- Badillo, Jerahmeel
-<p align="center">
- Calapao, Jan Reinnen
-<p align="center">
- Rebong, Dexter
-<p align="center">
- Sofer, Jencel
-</p>
+<div align="center">
+
+ 👥 CONTRIBUTORS 👥
+
+
+<table>
+  <tr>
+    <td align="center" style="padding: 10px;">
+      <br/>
+      <b>Badillo, Jerahmeel</b><br/>
+      <a href="https://www.facebook.com/jerahmeel.badillo" target="_blank">
+        <img src="https://img.icons8.com/fluency/48/facebook-new.png" width="24"/>
+      </a>
+    </td>
+    <td align="center" style="padding: 10px;">
+      <br/>
+      <b>Calapao, Jan Reinnen</b><br/>
+      <a href="https://www.facebook.com/xRenzooooo" target="_blank">
+        <img src="https://img.icons8.com/fluency/48/facebook-new.png" width="24"/>
+      </a>
+    </td>
+    <td align="center" style="padding: 10px;">
+      <br/>
+      <b>Rebong, Dexter</b><br/>
+      <a href="https://www.facebook.com/diman.rebong.5" target="_blank">
+        <img src="https://img.icons8.com/fluency/48/facebook-new.png" width="24"/>
+      </a>
+    </td>
+    <td align="center" style="padding: 10px;">
+      <br/>
+      <b>Sofer, Jencel</b><br/>
+      <a href="https://www.facebook.com/jencel.sofer" target="_blank">
+        <img src="https://img.icons8.com/fluency/48/facebook-new.png" width="24"/>
+      </a>
+    </td>
+  </tr>
+</table>
+
+</div>
+
