@@ -28,9 +28,10 @@
      _(usually found at `C:\xampp\htdocs`)_
 
 2. **Import the Database**
-   - Open your browser and go to: [phpMyAdmin](http://localhost/phpmyadmin)  
+   - Open your browser and go to: [phpMyAdmin](http://localhost/phpmyadmin)
+   - Download the SQL file in the folder
    - Click on ➕ **Import**  
-   - Choose the `.sql` file  
+   - Choose the `probasyon.sql` file  
    - Click **Go**
 
 3. **Start XAMPP Services**
